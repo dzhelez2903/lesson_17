@@ -63,7 +63,6 @@ ul li a {
   float: left;
   margin-top: 4px;
   margin-right: 7px;
-  background-color: #23ae92;
 }
 
 .butt {
@@ -74,6 +73,10 @@ ul li a {
   font-family: "quicksand";
   font-size: 18px;
   color: #fbf6e4;
+}
+
+.butt:hover {
+  cursor: pointer;
 }
 
 .forms {
@@ -127,8 +130,8 @@ ul li a {
 }
 
 .formRegistration .upList {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 46px;
+  margin-bottom: 36px;
 }
 
 .formRegistration .textInput {
