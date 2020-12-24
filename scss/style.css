@@ -23,27 +23,33 @@ ul li a {
   color: #fbf6e4;
 }
 
-ul li a :hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #e66a64;
-          text-decoration-color: #e66a64;
-}
-
 .upList {
   font-size: 18px;
-  margin-top: 55px;
 }
 
 .upList :nth-child(1) {
   margin-right: 5px;
 }
 
+.upList :hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e66a64;
+}
+
 .downList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 13px;
   margin-top: 35px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.downList li {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fbf6e4;
 }
 
 .textInput {
@@ -51,7 +57,6 @@ ul li a :hover {
   height: 37px;
   border: 2px solid #9b85c7;
   background: none;
-  margin-top: 12px;
 }
 
 .check {
@@ -69,16 +74,14 @@ ul li a :hover {
   font-family: "quicksand";
   font-size: 18px;
   color: #fbf6e4;
-  margin-top: 40px;
 }
 
 .forms {
-  min-width: width 320px;
+  min-width: 320px;
   max-width: 400px;
   width: 100%;
-  height: 495px;
+  min-height: 495px;
   margin: 0 auto;
-  background: url(../img/background.png) no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,21 +90,48 @@ ul li a :hover {
           justify-content: center;
   font-family: "quicksand";
   color: #fbf6e4;
+  background: url(../img/background.png) no-repeat;
 }
 
-.forms div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.formLogIn {
   width: 65%;
   margin: 0 auto;
 }
 
-.forms div p {
+.formLogIn p {
   font-size: 16px;
+  margin-bottom: 11px;
+}
+
+.formLogIn .upList {
+  margin-top: 46px;
+  margin-bottom: 36px;
+}
+
+.formLogIn .textInput {
+  margin-bottom: 21px;
+}
+
+.formLogIn .check {
+  margin-bottom: 41px;
+}
+
+.formRegistration {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.formRegistration p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.formRegistration .upList {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.formRegistration .textInput {
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
