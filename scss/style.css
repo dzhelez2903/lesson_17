@@ -35,14 +35,11 @@ ul li a {
 .upList li :hover {
   padding-bottom: 6px;
   border-bottom: 2px solid #e66a64;
+  cursor: pointer;
 }
 
 .upList :nth-child(1) {
   margin-right: 5px;
-}
-
-.upList .radio {
-  display: none;
 }
 
 .downList {
@@ -61,11 +58,19 @@ ul li a {
   border-bottom: 1px solid #fbf6e4;
 }
 
+.downList li :hover {
+  cursor: pointer;
+}
+
 .textInput {
   width: 98%;
   height: 37px;
   border: 2px solid #9b85c7;
   background: none;
+}
+
+.radio {
+  display: none;
 }
 
 .check {
@@ -106,6 +111,10 @@ ul li a {
 }
 
 .forms:nth-child(2) {
+  display: none;
+}
+
+.forms:nth-child(3) {
   display: none;
 }
 
