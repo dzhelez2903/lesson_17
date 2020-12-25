@@ -9,4 +9,5 @@ link2 = document.getElementById("signIn");
 link2.onclick = function () {
   document.getElementById("block1").style.display = "block";
   document.getElementById("block2").style.display = "none";
+  console.log(link2);
 };
