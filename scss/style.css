@@ -27,13 +27,22 @@ ul li a {
   font-size: 18px;
 }
 
+.upList li {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #ffffff00;
+}
+
+.upList li :hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e66a64;
+}
+
 .upList :nth-child(1) {
   margin-right: 5px;
 }
 
-.radio:checked {
-  padding-bottom: 6px;
-  border-bottom: 2px solid #e66a64;
+.upList .radio {
+  display: none;
 }
 
 .downList {

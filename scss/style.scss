@@ -30,14 +30,23 @@ ul {
 .upList {
   font-size: 18px;
 
+  li {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #ffffff00;
+
+    :hover {
+      padding-bottom: 6px;
+      border-bottom: 2px solid #e66a64;
+    }
+  }
+
   :nth-child(1) {
     margin-right: 5px;
-  }  
-}
+  }
 
-.radio:checked {
-  padding-bottom: 6px;
-  border-bottom: 2px solid #e66a64;
+  .radio {
+    display: none;
+  }
 }
 
 .downList {
