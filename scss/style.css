@@ -31,7 +31,7 @@ ul li a {
   margin-right: 5px;
 }
 
-.upList :hover {
+.radio:checked {
   padding-bottom: 6px;
   border-bottom: 2px solid #e66a64;
 }
@@ -111,8 +111,8 @@ ul li a {
 }
 
 .formLogIn .upList {
-  margin-top: 46px;
-  margin-bottom: 36px;
+  margin-top: 36px;
+  margin-bottom: 26px;
 }
 
 .formLogIn .textInput {
@@ -134,8 +134,8 @@ ul li a {
 }
 
 .formRegistration .upList {
-  margin-top: 46px;
-  margin-bottom: 36px;
+  margin-top: 36px;
+  margin-bottom: 26px;
 }
 
 .formRegistration .textInput {

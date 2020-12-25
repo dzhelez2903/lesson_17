@@ -32,12 +32,12 @@ ul {
 
   :nth-child(1) {
     margin-right: 5px;
-  }
+  }  
+}
 
-  :hover {
-    padding-bottom: 6px;
-    border-bottom: 2px solid #e66a64;
-  }
+.radio:checked {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e66a64;
 }
 
 .downList {
@@ -106,8 +106,8 @@ ul {
   }
 
   .upList {
-    margin-top: 46px;
-    margin-bottom: 36px;
+    margin-top: 36px;
+    margin-bottom: 26px;
   }
 
   .textInput {
@@ -129,8 +129,8 @@ ul {
   }
 
   .upList {
-    margin-top: 46px;
-    margin-bottom: 36px;
+    margin-top: 36px;
+    margin-bottom: 26px;
   }
 
   .textInput {
