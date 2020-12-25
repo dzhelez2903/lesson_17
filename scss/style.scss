@@ -92,6 +92,10 @@ ul {
   background: $Bg;
 }
 
+.forms:nth-child(2) {
+  display: none;
+}
+
 .formLogIn {
   width: 65%;
   margin: 0 auto;
