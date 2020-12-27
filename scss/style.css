@@ -72,6 +72,10 @@ ul li a {
   font-size: 18px;
 }
 
+.textInput:focus {
+  outline: none !important;
+}
+
 .radio {
   display: none;
 }
